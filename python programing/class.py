@@ -4,7 +4,16 @@
 #     b+=i
 # print(b)
 
-from re import A
+# from re import A
+a= 1,2,3,4,5
+b=0
+for i in reversed(a):
+    b+=1
+print(b)
+
+
+
+
 
 
 # a=1
@@ -28,10 +37,10 @@ from re import A
 #     if(i%2==0):
 #         print(a[i],end="")
 
-a="programming"
-for i in range(len(a)):
-    if(i%2!=0):
-        print(a[i],end="")
+# a="programming"
+# for i in range(len(a)):
+#     if(i%2!=0):
+#         print(a[i],end="")
 
 # a="parameter"
 # print(len(a))
